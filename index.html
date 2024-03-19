@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><script src="https://kit.fontawesome.com/2ee0245f3d.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+
+<body>
+    <header class="ancho">  Ejemplo menu responsivo</header>
+    <nav class="ancho">
+        <i class="iconomenu fa-solid fa-bars" id="iconomenu"></i>
+        <ul class="menuflex" id="menuflex">
+    <li><a href="#">Inicio</a> </li>
+    <li><a href="#">Empresa</a> </li>
+    <li> <a href="#">Servicios</a> </li>
+    <li> <a href="#">Ubicacion</a> </li>
+    <li> <a href="#">Contacto</a> </li>
+   
+    </ul></nav>
+    <section class="ancho"><img   class="foto" src="https://lipsum.app/random/648x480" alt=""></section>
+    
+
+
+ <!-- funciones javascript-->
+ <script>
+    //Script menu desplegabe
+    $("#iconomenu").click(function(){
+        $("#menuflex").slideToggle();
+
+    }
+    );
+
+ </script>   
+</body>
+</html>
